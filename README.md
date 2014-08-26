@@ -69,7 +69,7 @@ The local one is <ffecadd> but the remote one is <5b2bc12>.
 Then, use below command to push rebased local branch.
 
 ```zsh
-git push -f origin extended
+git push --force-with-lease origin extended
 ```
 
 ```zsh
